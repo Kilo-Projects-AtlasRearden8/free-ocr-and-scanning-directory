@@ -8,40 +8,56 @@ company founded by Dylan Asdale, registered nurse turned AI author. His book
 _The Massive AI Manual_ and hub site dylanasdale.github.io explain AI "like a
 friend would": plain English, step by step, never condescending.
 
+## Who this is for
+
+Anyone with a stack of paper who wants searchable text without paying for
+software or creating an account. Students, nurses, small-business owners,
+authors, and anyone who just wants their documents digitized — simply.
+
+Every tool here is:
+
+- **Free** — no purchase, no subscription, no "trial" that expires
+- **No account needed** — download, install, and use
+- **Linked to its official site** — never an affiliate link, never a tracking
+  redirect
+
 ## How to use
 
-Open `index.html` in any modern browser. No build step, no server, no account
-needed. Use the search box to filter tools by name, platform, or task. Every
-tool listed is free, requires no account to use, and links to its official
-site — never an affiliate link.
+Open `index.html` in any web browser. That's it — no install, no server, no
+build step. Type in the search box to filter by name, platform, or task. Click
+a platform chip (Windows, macOS, Linux, Command line, Desktop app, Built-in)
+to narrow the list further.
 
-## What's inside
+Each tool card shows:
 
-Client-side static site: `index.html`, `css/style.css`, `js/tools.js`, and
-`js/app.js`. All tool data lives in `js/tools.js` as plain JavaScript, so you
-can edit or extend it without touching any code logic.
-
-Each tool entry includes:
-
-- **Cost** — always free here
-- **Platform** — Windows, macOS, Linux, web, iOS, Android
+- **Cost** — always free in this directory
+- **Platform** — what operating systems it runs on
 - **Account required** — No (every tool in this directory)
 - **Steps** — plain-English, beginner-friendly instructions
-- **Official link** — the tool's home page or repository
+- **Official link** — the tool's home page or source repository
 
 ## Included tools
 
-- Tesseract OCR — command-line OCR engine (Windows, macOS, Linux)
-- gImageReader — graphical front end for Tesseract (Windows, Linux)
-- NAPS2 — scanning and OCR to PDF (Windows)
-- OCRmyPDF — OCR existing PDFs to make them searchable (Linux, macOS, Windows via WSL/Docker)
-- pdfsandwich — OCR scanned PDFs from the command line (Linux)
-- SimpleScan — document scanning (Linux, GNOME)
-- gscan2pdf — scanning with OCR output (Linux)
-- XSane — scanning interface (Linux)
-- Windows Snipping Tool (Text Actions) — OCR from screenshots (Windows 10/11)
-- macOS Preview / Live Text — OCR built into macOS and iOS
-- EasyOCR — Python OCR library (Windows, macOS, Linux)
+| Tool | Platform | Type |
+|------|----------|------|
+| Tesseract OCR | Windows, macOS, Linux | Command line |
+| gImageReader | Windows, Linux | Desktop app |
+| NAPS2 | Windows | Desktop app |
+| OCRmyPDF | Linux, macOS, Windows (WSL/Docker) | Command line |
+| pdfsandwich | Linux | Command line |
+| SimpleScan | Linux | Desktop app |
+| gscan2pdf | Linux | Desktop app |
+| XSane | Linux | Desktop app |
+| Windows Snipping Tool (Text Actions) | Windows | Built-in |
+| macOS Preview / Live Text | macOS, iOS | Built-in |
+| EasyOCR | Windows, macOS, Linux | Command line |
+
+## What "no account" means
+
+You will not be asked to create an account, sign in with Google or Apple, or
+hand over an email address to use any tool listed here. Some tools may offer
+optional cloud features, but the core OCR and scanning work happens locally on
+your computer.
 
 ## License
 
@@ -49,5 +65,5 @@ MIT License. Copyright (c) 2026 Asdale Dynamics, LLC. See LICENSE.
 
 ## Credit
 
-Created and maintained by Asdale Dynamics, LLC. No affiliate links, no
+Created and maintained by **Asdale Dynamics, LLC**. No affiliate links, no
 tracking, no personal data collected by this site.
